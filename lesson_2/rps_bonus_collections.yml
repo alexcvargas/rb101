@@ -1,0 +1,42 @@
+# rps_bonus_collections.yml
+# First 5 key-value pairs represent the game's different moves & interactions.
+# Abreviated & unabreviated game moves are as follows:
+# 'r' for rock, 'p' for paper, 's' for scissors, 'l' for lizard,
+#   and 'S' for Spock.
+# Each value starts by containing the unabreviated version of that values' key.
+# Moreover, the value contains what each game move(key) 
+# can beat in a head-to-head matchup.
+# For example: 
+#   rock(r) beats scissors(s)
+#   rock(r) can also beat lizard(l)
+
+r: 
+  - rock
+  - s
+  - l
+p:
+  - paper
+  - r
+  - S
+s:
+  - scissors
+  - p
+  - l
+l:
+  - lizard
+  - p
+  - S
+S:
+  - Spock
+  - r
+  - s
+  
+welcome: "Welcome to the exciting game of Rock, Paper, Scissors, Lizard, Spock!"
+get_player_roll: |
+  Please choose from the following:
+  Note: your entry is case-sensitive...
+    'r' for rock
+    'p' for paper
+    's' for scissors
+    'l' for lizard
+    'S' for Spock
