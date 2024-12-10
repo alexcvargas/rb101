@@ -1,0 +1,15 @@
+# rps_bonus_review_yml_user_facing_text.yml
+
+greetings: "Welcome to a new game of Rock, Paper, Scissors, Lizard, Spock!"
+choose_player_roll: |
+  Please choose from the following:
+  Note: your entry is case-sensitive...
+    'r' for rock
+    'p' for paper
+    's' for scissors
+    'l' for lizard
+    'S' for Spock
+player_is_the_champ: "Player is declared the Grand Champion!"
+cpu_is_the_champ: "CPU is declared the Grand Champion!"
+try_again: "Invalid entry, try again."
+to_continue: "Press enter to continue."
